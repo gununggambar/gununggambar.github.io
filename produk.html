@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Produk — Gunung Gambar Coffee</title>
+<meta name="description" content="Asal, petani, proses, dan cara seduh kopi robusta Gunung Gambar.">
+<meta name="theme-color" content="#581F2A">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&amp;display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="lewati" href="#isi">Langsung ke isi</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs><clipPath id="klip-biji"><ellipse cx="100" cy="64" rx="91" ry="53"/></clipPath></defs>
+  <symbol id="logo" viewBox="0 0 200 128">
+    <ellipse cx="100" cy="64" rx="97" ry="59" fill="var(--mark-halo,#F5EFDF)"/>
+    <ellipse cx="100" cy="64" rx="91" ry="53" fill="#A44935"/>
+    <g clip-path="url(#klip-biji)" fill="none" stroke="#F5EFDF" stroke-width="3.8" stroke-linecap="round">
+      <path d="M2,81 C26,71 48,61 70,55.5"/><path d="M130,54.5 C153,57 175,62 198,67"/>
+    </g>
+    <g fill="#F5EFDF" stroke="#F5EFDF" stroke-width="1.2" stroke-linejoin="round">
+      <path d="M88.2,21.5H97.6V59.1H82.9V94.5H61.5V83.8H67.9V43.1H78.6V32.4H88.2Z"/>
+      <path d="M111.8,21.5H102.4V59.1H117.1V94.5H138.5V83.8H132.1V43.1H121.4V32.4H111.8Z"/>
+    </g>
+  </symbol>
+</svg>
+
+<header class="kepala">
+  <div class="wadah">
+    <a class="merek" href="index.html" aria-label="Gunung Gambar Coffee, ke beranda">
+      <svg viewBox="0 0 200 128" aria-hidden="true"><use href="#logo"/></svg>
+      <span>Gunung Gambar</span>
+    </a>
+    <nav aria-label="Menu utama">
+      <ul class="menu">
+        <li><a href="index.html#cerita">Cerita</a></li>
+        <li><a href="index.html#kopi">Kopi</a></li>
+        <li><a href="index.html#seduh">Cara seduh</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="isi">
+  <section class="kepala-produk" aria-labelledby="p-nama">
+    <div class="wadah">
+      <p class="label-kecil">Robusta Gunung Gambar</p>
+      <h1 id="p-nama">Robusta</h1>
+      <p style="font-family:var(--serif);font-size:2rem;margin:0;color:var(--krem)"><span id="p-berat">-</span> · <span id="p-bentuk">-</span></p>
+      <nav class="pilih-batch" id="p-pilih" aria-label="Pilih kemasan"></nav>
+    </div>
+  </section>
+  <div class="pita-bata" aria-hidden="true"></div>
+
+  <section class="bagian" aria-labelledby="judul-asal">
+    <div class="wadah dua-kolom">
+      <div>
+        <p class="label-kecil">Asal kopi ini</p>
+        <h2 id="judul-asal">Dari kebun ke cangkir</h2>
+        <table class="tabel-fakta"><tbody id="p-fakta"></tbody></table>
+      </div>
+      <div>
+        <div class="foto-kosong">[FOTO KEBUN / PETANI]</div>
+        <h3 style="margin-top:1.25rem">Cerita</h3>
+        <p id="p-cerita">-</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bagian gelap" aria-labelledby="judul-seduh">
+    <div class="wadah">
+      <p class="label-kecil">Cara seduh</p>
+      <h2 id="judul-seduh">Seduh tubruk</h2>
+      <dl class="resep"><dt>Kopi</dt><dd>10–12 g (±2 sdm)</dd><dt>Air</dt><dd>150 ml, 90–95 °C</dd><dt>Waktu</dt><dd>± 4 menit</dd></dl>
+      <p>Aduk, tunggu ampas turun, lalu nikmati. Panduan V60 dan French press ada di <a href="index.html#seduh">halaman cara seduh</a>.</p>
+    </div>
+  </section>
+
+  <section class="bagian krem2" aria-labelledby="judul-beli">
+    <div class="wadah">
+      <h2 id="judul-beli">Pesan lagi</h2>
+      <p>Harga: <span id="p-harga">-</span></p>
+      <p>WhatsApp: <span id="p-kontak">-</span></p>
+      <p class="offline-info">Halaman ini tetap bisa dibuka tanpa sinyal setelah sekali dibuka.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="kaki">
+  <div class="wadah">
+    <div>
+      <h3>Gunung Gambar Coffee</h3>
+      <p>Kelompok Tani Kopi “Tunas Muda Mandiri”, Gunung Gambar, Kampung, Ngawen, Gunungkidul.</p>
+    </div>
+    <div>
+      <h3>Binaan</h3>
+      <p>Universitas Gadjah Mada · KKN-PPM UGM 2026</p>
+    </div>
+  </div>
+</footer>
+
+<script src="data/produk.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

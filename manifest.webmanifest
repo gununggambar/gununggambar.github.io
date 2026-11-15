@@ -1,0 +1,9 @@
+{
+  "name": "Gunung Gambar Coffee",
+  "short_name": "Gunung Gambar",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F5EFDF",
+  "theme_color": "#581F2A",
+  "lang": "id"
+}
