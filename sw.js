@@ -1,7 +1,7 @@
 /* Simpan halaman agar tetap terbuka tanpa sinyal.
    Ubah VERSI setiap kali isi situs diperbarui. */
-var VERSI = "gg-v1";
-var FILE = ["./", "index.html", "produk.html", "assets/style.css", "assets/app.js", "data/produk.js", "manifest.webmanifest"];
+var VERSI = "gg-v3";
+var FILE = ["./", "index.html", "produk.html", "kemitraan.html", "assets/style.css", "assets/app.js", "data/produk.js", "manifest.webmanifest", "assets/ikon.svg"];
 
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(VERSI).then(function (c) { return c.addAll(FILE); }));

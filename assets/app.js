@@ -10,7 +10,7 @@
   } catch (e) {}
 
   // ---------- Halaman produk ----------
-  var wadah = document.getElementById("produk-isi");
+  var wadah = document.getElementById("p-fakta");
   if (!wadah || !window.PRODUK) return;
 
   var BARIS = [

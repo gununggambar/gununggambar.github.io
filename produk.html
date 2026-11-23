@@ -7,52 +7,52 @@
 <meta name="description" content="Asal, petani, proses, dan cara seduh kopi robusta Gunung Gambar.">
 <meta name="theme-color" content="#581F2A">
 <link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/ikon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese&amp;display=swap&amp;text=%20%EA%A6%81%EA%A6%82%EA%A6%8F%EA%A6%92%EA%A6%A4%EA%A6%A5%EA%A6%A7%EA%A6%A9%EA%A6%B3%EA%A6%B4%EA%A6%B6%EA%A6%B8%EA%A6%BA%EA%A7%80%EA%A7%91%EA%A7%92%EA%A7%93%EA%A7%94%EA%A7%95">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <a class="lewati" href="#isi">Langsung ke isi</a>
-
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs><clipPath id="klip-biji"><ellipse cx="100" cy="64" rx="91" ry="53"/></clipPath></defs>
+  <defs><clipPath id="klip-biji"><ellipse cx="100" cy="64" rx="90" ry="52"/></clipPath></defs>
+  <!-- Logo baru: biji kopi bata berbingkai emas + dua gapura + garis punggung bukit -->
   <symbol id="logo" viewBox="0 0 200 128">
-    <ellipse cx="100" cy="64" rx="97" ry="59" fill="var(--mark-halo,#F5EFDF)"/>
-    <ellipse cx="100" cy="64" rx="91" ry="53" fill="#A44935"/>
-    <g clip-path="url(#klip-biji)" fill="none" stroke="#F5EFDF" stroke-width="3.8" stroke-linecap="round">
-      <path d="M2,81 C26,71 48,61 70,55.5"/><path d="M130,54.5 C153,57 175,62 198,67"/>
+    <ellipse cx="100" cy="64" rx="96" ry="58" fill="#C5A35C"/>
+    <ellipse cx="100" cy="64" rx="90" ry="52" fill="#A44935"/>
+    <g clip-path="url(#klip-biji)" fill="none" stroke-linecap="round">
+      <path d="M0,84 C30,72 55,63 80,58 M120,56 C148,57 172,61 200,66" stroke="#C5A35C" stroke-width="7"/>
+      <path d="M0,84 C30,72 55,63 80,58 M120,56 C148,57 172,61 200,66" stroke="#F5EFDF" stroke-width="3.6"/>
     </g>
-    <g fill="#F5EFDF" stroke="#F5EFDF" stroke-width="1.2" stroke-linejoin="round">
+    <g fill="#F5EFDF" stroke="#C5A35C" stroke-width="2.2" stroke-linejoin="round">
       <path d="M88.2,21.5H97.6V59.1H82.9V94.5H61.5V83.8H67.9V43.1H78.6V32.4H88.2Z"/>
       <path d="M111.8,21.5H102.4V59.1H117.1V94.5H138.5V83.8H132.1V43.1H121.4V32.4H111.8Z"/>
     </g>
   </symbol>
 </svg>
-
 <header class="kepala">
   <div class="wadah">
     <a class="merek" href="index.html" aria-label="Gunung Gambar Coffee, ke beranda">
-      <svg viewBox="0 0 200 128" aria-hidden="true"><use href="#logo"/></svg>
-      <span>Gunung Gambar</span>
+      <svg viewBox="0 0 200 128" aria-hidden="true"><use href="#logo"/></svg><span>Gunung Gambar</span>
     </a>
-    <nav aria-label="Menu utama">
-      <ul class="menu">
-        <li><a href="index.html#cerita">Cerita</a></li>
-        <li><a href="index.html#kopi">Kopi</a></li>
-        <li><a href="index.html#seduh">Cara seduh</a></li>
-      </ul>
-    </nav>
+    <nav aria-label="Menu utama"><ul class="menu">
+      <li><a href="index.html#cerita">Cerita</a></li><li><a href="index.html#kopi">Kopi</a></li><li><a href="index.html#seduh">Cara seduh</a></li>
+    </ul></nav>
   </div>
 </header>
 
 <main id="isi">
   <section class="kepala-produk" aria-labelledby="p-nama">
     <div class="wadah">
-      <p class="label-kecil">Robusta Gunung Gambar</p>
-      <h1 id="p-nama">Robusta</h1>
-      <p style="font-family:var(--serif);font-size:2rem;margin:0;color:var(--krem)"><span id="p-berat">-</span> · <span id="p-bentuk">-</span></p>
-      <nav class="pilih-batch" id="p-pilih" aria-label="Pilih kemasan"></nav>
+      <div>
+        <p class="label-kecil">Robusta Gunung Gambar</p>
+        <h1 id="p-nama">Robusta</h1>
+        <p class="ukuran"><span id="p-berat">-</span> · <span id="p-bentuk">-</span></p>
+        <nav class="pilih-batch" id="p-pilih" aria-label="Pilih kemasan"></nav>
+      </div>
+      <svg class="mark" viewBox="0 0 200 128" aria-hidden="true"><use href="#logo"/></svg>
     </div>
   </section>
   <div class="pita-bata" aria-hidden="true"></div>
@@ -60,13 +60,13 @@
   <section class="bagian" aria-labelledby="judul-asal">
     <div class="wadah dua-kolom">
       <div>
-        <p class="label-kecil">Asal kopi ini</p>
+        <p class="label-kecil"><span class="no" lang="jv">꧑</span>Asal kopi ini</p>
         <h2 id="judul-asal">Dari kebun ke cangkir</h2>
         <table class="tabel-fakta"><tbody id="p-fakta"></tbody></table>
       </div>
       <div>
-        <div class="foto-kosong">[FOTO KEBUN / PETANI]</div>
-        <h3 style="margin-top:1.25rem">Cerita</h3>
+        <div class="foto-kosong foto-produk">[FOTO KEBUN / PETANI]</div>
+        <h3 style="margin-top:1.5rem">Cerita</h3>
         <p id="p-cerita">-</p>
       </div>
     </div>
@@ -74,33 +74,36 @@
 
   <section class="bagian gelap" aria-labelledby="judul-seduh">
     <div class="wadah">
-      <p class="label-kecil">Cara seduh</p>
+      <p class="label-kecil"><span class="no" lang="jv">꧒</span>Cara seduh</p>
       <h2 id="judul-seduh">Seduh tubruk</h2>
-      <dl class="resep"><dt>Kopi</dt><dd>10–12 g (±2 sdm)</dd><dt>Air</dt><dd>150 ml, 90–95 °C</dd><dt>Waktu</dt><dd>± 4 menit</dd></dl>
-      <p>Aduk, tunggu ampas turun, lalu nikmati. Panduan V60 dan French press ada di <a href="index.html#seduh">halaman cara seduh</a>.</p>
+      <div class="resep-kartu" style="max-width:520px">
+        <div class="rasio">1:13<small>kopi : air</small></div>
+        <dl class="resep" style="margin-top:1.25rem"><dt>Kopi</dt><dd>10–12 g (±2 sdm)</dd><dt>Air</dt><dd>150 ml, 90–95 °C</dd><dt>Waktu</dt><dd>± 4 menit</dd></dl>
+        <p style="margin:0">Aduk, tunggu ampas turun, lalu nikmati. Panduan V60 dan French press ada di <a href="index.html#seduh">halaman cara seduh</a>.</p>
+      </div>
     </div>
   </section>
 
   <section class="bagian krem2" aria-labelledby="judul-beli">
     <div class="wadah">
-      <h2 id="judul-beli">Pesan lagi</h2>
-      <p>Harga: <span id="p-harga">-</span></p>
-      <p>WhatsApp: <span id="p-kontak">-</span></p>
-      <p class="offline-info">Halaman ini tetap bisa dibuka tanpa sinyal setelah sekali dibuka.</p>
+      <p class="label-kecil"><span class="no" lang="jv">꧓</span>Pesan lagi</p>
+      <h2 id="judul-beli">Suka kopinya?</h2>
+      <div class="kartu-kontak" style="max-width:520px">
+        <dl>
+          <div><dt>Harga</dt><dd id="p-harga">-</dd></div>
+          <div><dt>WhatsApp</dt><dd id="p-kontak">-</dd></div>
+        </dl>
+      </div>
+      <p class="offline-info" style="margin-top:1.25rem">Halaman ini tetap bisa dibuka tanpa sinyal setelah sekali dibuka.</p>
     </div>
   </section>
 </main>
 
 <footer class="kaki">
+  <div class="watermark" lang="jv" aria-hidden="true">ꦒꦸꦤꦸꦁ ꦒꦩ꧀ꦧꦂ</div>
   <div class="wadah">
-    <div>
-      <h3>Gunung Gambar Coffee</h3>
-      <p>Kelompok Tani Kopi “Tunas Muda Mandiri”, Gunung Gambar, Kampung, Ngawen, Gunungkidul.</p>
-    </div>
-    <div>
-      <h3>Binaan</h3>
-      <p>Universitas Gadjah Mada · KKN-PPM UGM 2026</p>
-    </div>
+    <div><h3>Gunung Gambar Coffee</h3><p>Kelompok Tani Kopi “Tunas Muda Mandiri”, Gunung Gambar, Kampung, Ngawen, Gunungkidul.</p></div>
+    <div><h3>Binaan</h3><p>Universitas Gadjah Mada · KKN-PPM UGM 2026</p></div>
   </div>
 </footer>
 

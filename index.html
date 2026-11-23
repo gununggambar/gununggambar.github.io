@@ -7,67 +7,29 @@
 <meta name="description" content="Kopi robusta Gunung Gambar dari Kalurahan Kampung, Ngawen, Gunungkidul. Cerita, asal kebun, dan cara seduh.">
 <meta name="theme-color" content="#581F2A">
 <link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/ikon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&amp;display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese&amp;display=swap&amp;text=%EA%A6%92%EA%A6%B8%EA%A6%A4%EA%A6%B8%EA%A6%81%20%EA%A6%92%EA%A6%A9%EA%A7%80%EA%A6%A7%EA%A6%82%20%EA%A6%8F%EA%A6%BA%EA%A6%B4%EA%A6%A5%EA%A6%B3%EA%A6%B6">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese&amp;display=swap&amp;text=%20%EA%A6%81%EA%A6%82%EA%A6%8F%EA%A6%92%EA%A6%A4%EA%A6%A5%EA%A6%A7%EA%A6%A9%EA%A6%B3%EA%A6%B4%EA%A6%B6%EA%A6%B8%EA%A6%BA%EA%A7%80%EA%A7%91%EA%A7%92%EA%A7%93%EA%A7%94%EA%A7%95%EA%A7%96">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <a class="lewati" href="#isi">Langsung ke isi</a>
-
-<!-- Ikon & ornamen (dari file Figma "Gunung Gambar") -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <clipPath id="klip-biji"><ellipse cx="100" cy="64" rx="91" ry="53"/></clipPath>
-  </defs>
-  <!-- Logo: biji kopi bata + dua gapura (Majapahit & Mataram) + siluet puncak -->
+  <defs><clipPath id="klip-biji"><ellipse cx="100" cy="64" rx="90" ry="52"/></clipPath></defs>
+  <!-- Logo baru: biji kopi bata berbingkai emas + dua gapura + garis punggung bukit -->
   <symbol id="logo" viewBox="0 0 200 128">
-    <ellipse cx="100" cy="64" rx="97" ry="59" fill="var(--mark-halo,#F5EFDF)"/>
-    <ellipse cx="100" cy="64" rx="91" ry="53" fill="#A44935"/>
-    <g clip-path="url(#klip-biji)" fill="none" stroke="#F5EFDF" stroke-width="3.8" stroke-linecap="round">
-      <path d="M2,81 C26,71 48,61 70,55.5"/>
-      <path d="M130,54.5 C153,57 175,62 198,67"/>
+    <ellipse cx="100" cy="64" rx="96" ry="58" fill="#C5A35C"/>
+    <ellipse cx="100" cy="64" rx="90" ry="52" fill="#A44935"/>
+    <g clip-path="url(#klip-biji)" fill="none" stroke-linecap="round">
+      <path d="M0,84 C30,72 55,63 80,58 M120,56 C148,57 172,61 200,66" stroke="#C5A35C" stroke-width="7"/>
+      <path d="M0,84 C30,72 55,63 80,58 M120,56 C148,57 172,61 200,66" stroke="#F5EFDF" stroke-width="3.6"/>
     </g>
-    <g fill="#F5EFDF" stroke="#F5EFDF" stroke-width="1.2" stroke-linejoin="round">
+    <g fill="#F5EFDF" stroke="#C5A35C" stroke-width="2.2" stroke-linejoin="round">
       <path d="M88.2,21.5H97.6V59.1H82.9V94.5H61.5V83.8H67.9V43.1H78.6V32.4H88.2Z"/>
       <path d="M111.8,21.5H102.4V59.1H117.1V94.5H138.5V83.8H132.1V43.1H121.4V32.4H111.8Z"/>
     </g>
-  </symbol>
-  <!-- Biji kopi kecil -->
-  <symbol id="biji" viewBox="0 0 20 28">
-    <path fill="currentColor" fill-rule="evenodd" d="M10 0C16 0 20 6 20 14C20 22 16 28 10 28C4 28 0 22 0 14C0 6 4 0 10 0ZM12 3C11 7 7 9 7 13C7 17 10 20 9 25C12 21 11 18 10 15C8 11 12 8 12 3Z"/>
-  </symbol>
-  <!-- Ornamen sulur (motif4), dipakai kiri & kanan -->
-  <symbol id="sulur" viewBox="0 70 230 160">
-    <path fill="currentColor" d="M226.6 219.8C206.8 167.6 166.3 102.8 111.4 100.1C73.6 97.4 46.6 122.6 49.3 154.1C52 188.3 82.6 211.7 110.5 202.7C138.4 193.7 149.2 159.5 130.3 137C115.9 119.9 93.4 123.5 87.1 139.7C80.8 155 90.7 170.3 105.1 169.4C95.2 165.8 92.5 155.9 97 147.8C105.1 135.2 121.3 140.6 125.8 152.3C133.9 170.3 117.7 186.5 103.3 188.3C78.1 192.8 60.1 171.2 62.8 150.5C66.4 125.3 86.2 114.5 110.5 116.3C157.3 119.9 198.7 164 226.6 219.8Z"/>
-    <path fill="currentColor" d="M51.1 164.9C38.5 173.9 28.6 166.7 25 155.9C36.7 157.7 37.6 143.3 51.1 139.7C47.5 148.7 50.2 155.9 51.1 164.9Z"/>
-    <path fill="currentColor" d="M89.8 116.3C80.8 99.2 66.4 88.4 46.6 92C57.4 102.8 52.9 117.2 64.6 122.6C66.4 111.8 77.2 109.1 89.8 116.3Z"/>
-    <path fill="currentColor" d="M127.6 104.6C116.8 83.9 102.4 75.8 86.2 80.3C97.9 91.1 94.3 103.7 106.9 106.4C106 94.7 115.9 92.9 127.6 104.6Z"/>
-    <path fill="currentColor" d="M162.7 119.9C158.2 98.3 143.8 83 128.5 84.8C140.2 96.5 133.9 110 147.4 113.6C145.6 102.8 153.7 101 162.7 119.9Z"/>
-    <path fill="currentColor" d="M187.9 143.3C187 120.8 176.2 104.6 160.9 105.5C170.8 116.3 162.7 128.9 175.3 133.4C173.5 124.4 180.7 121.7 187.9 143.3Z"/>
-    <path fill="currentColor" d="M93.4 200.9C88 219.8 69.1 225.2 55.6 215.3C68.2 214.4 65.5 198.2 77.2 194.6C74.5 204.5 82.6 209 93.4 200.9Z"/>
-  </symbol>
-  <!-- Bingkai gapura (frame "Label") -->
-  <symbol id="gapura" viewBox="216 156 208 276" preserveAspectRatio="none">
-    <path d="M220 428V232H244V208H268V184H292V160H348V184H372V208H396V232H420V428H220Z" fill="#F5EFDF" stroke="#581F2A" stroke-width="3" vector-effect="non-scaling-stroke"/>
-    <path d="M232 416V244H256V220H280V196H304V172H336V196H360V220H384V244H408V416H232Z" fill="none" stroke="#C5A35C" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
-  </symbol>
-  <!-- Tanaman kopi (new logo5) -->
-  <symbol id="tanaman" viewBox="225 155 190 240">
-    <g fill="none" stroke="#A44935" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M320 325.8C316.8 282.6 323.2 239.4 320 187.6"/>
-      <path d="M304.9 211.4L320 223.2L335.1 211.4M301.6 266.4L320 279.4L338.4 266.4M309.2 244.8L320 252.4L330.8 244.8M309.2 304.2L320 311.8L330.8 304.2"/>
-      <path d="M307 213.5C276.8 215.7 256.3 194.1 258.4 164.9C286.5 167.1 310.3 184.4 307 213.5ZM307 213.5C294.1 199.5 280 184.4 269.2 176.8"/>
-      <path d="M333 213.5C330.8 185.4 352.4 167.1 381.6 164.9C383.7 193 364.3 215.7 333 213.5ZM333 213.5C345.9 199.5 360 184.4 370.8 176.8"/>
-      <path d="M303.8 268.6C272.5 281.6 242.2 260 232.5 227.6C266 224.3 297.3 237.3 303.8 268.6ZM303.8 268.6C283.3 253.5 262.8 241.6 246.6 236.2"/>
-      <path d="M336.2 268.6C342.7 237.3 372.9 225.4 407.5 228.6C396.7 261 367.5 281.6 336.2 268.6ZM336.2 268.6C356.7 253.5 377.2 242.7 393.4 237.3"/>
-      <path d="M320 326C320 355 344 374 365 357C388 338 374 310 354 315C340 319 341 337 354 335"/>
-    </g>
-    <g fill="none" stroke="#581F2A" stroke-width="5.4">
-      <circle cx="300.6" cy="237.3" r="10.8"/><circle cx="339.4" cy="237.3" r="10.8"/><circle cx="299.5" cy="296.7" r="11.9"/><circle cx="340.5" cy="296.7" r="11.9"/>
-    </g>
-    <path d="M327 350C301 352 287 368 284 386C302 377 325 381 332 365C320 371 315 361 327 350Z" fill="#A44935"/>
   </symbol>
 </svg>
 
@@ -79,11 +41,13 @@
     </a>
     <nav aria-label="Menu utama">
       <ul class="menu">
+        <li><a href="#makna">Logo</a></li>
         <li><a href="#cerita">Cerita</a></li>
         <li><a href="#kebun">Kebun</a></li>
         <li><a href="#kopi">Kopi</a></li>
         <li><a href="#seduh">Cara seduh</a></li>
         <li><a href="#kunjungi">Kunjungi</a></li>
+        <li><a class="menu-sorot" href="kemitraan.html">Kemitraan</a></li>
       </ul>
     </nav>
   </div>
@@ -93,127 +57,121 @@
 
 <!-- ================= BERANDA ================= -->
 <section class="hero" id="beranda" aria-labelledby="judul-utama">
-  <svg class="kontur" viewBox="0 0 496 340" preserveAspectRatio="none" aria-hidden="true">
-    <g fill="none" stroke="#C5A35C" stroke-width="1.4" stroke-linecap="round" vector-effect="non-scaling-stroke">
-      <path d="M-40 178C76 178 111 59 248 59C385 59 420 178 536 178" vector-effect="non-scaling-stroke"/>
-      <path d="M-40 195C76 195 111 76 248 76C385 76 420 195 536 195" vector-effect="non-scaling-stroke"/>
-      <path d="M-40 212C76 212 111 93 248 93C385 93 420 212 536 212" vector-effect="non-scaling-stroke"/>
-      <path d="M-40 229C76 229 111 110 248 110C385 110 420 229 536 229" vector-effect="non-scaling-stroke"/>
-      <path d="M-40 246C76 246 111 127 248 127C385 127 420 246 536 246" vector-effect="non-scaling-stroke"/>
-      <path d="M-40 263C76 263 111 144 248 144C385 144 420 263 536 263" vector-effect="non-scaling-stroke"/>
-      <path d="M-40 280C76 280 111 161 248 161C385 161 420 280 536 280" vector-effect="non-scaling-stroke"/>
-      <path d="M-40 297C76 297 111 178 248 178C385 178 420 297 536 297" vector-effect="non-scaling-stroke"/>
-      <path d="M-40 314C76 314 111 195 248 195C385 195 420 314 536 314" vector-effect="non-scaling-stroke"/>
-      <path d="M-40 331C76 331 111 212 248 212C385 212 420 331 536 331" vector-effect="non-scaling-stroke"/>
-    </g>
-  </svg>
+  <svg class="kontur" viewBox="0 0 520 380" preserveAspectRatio="none" aria-hidden="true"><g fill="none" stroke="#C5A35C" stroke-width="1" vector-effect="non-scaling-stroke"><path d="M-60 200C70 200 120 60 260 60C400 60 450 200 580 200"/><path d="M-60 216C70 216 120 76 260 76C400 76 450 216 580 216"/><path d="M-60 232C70 232 120 92 260 92C400 92 450 232 580 232"/><path d="M-60 248C70 248 120 108 260 108C400 108 450 248 580 248"/><path d="M-60 264C70 264 120 124 260 124C400 124 450 264 580 264"/><path d="M-60 280C70 280 120 140 260 140C400 140 450 280 580 280"/><path d="M-60 296C70 296 120 156 260 156C400 156 450 296 580 296"/><path d="M-60 312C70 312 120 172 260 172C400 172 450 312 580 312"/><path d="M-60 328C70 328 120 188 260 188C400 188 450 328 580 328"/><path d="M-60 344C70 344 120 204 260 204C400 204 450 344 580 344"/><path d="M-60 360C70 360 120 220 260 220C400 220 450 360 580 360"/><path d="M-60 376C70 376 120 236 260 236C400 236 450 376 580 376"/></g></svg>
   <div class="wadah">
-    <svg class="logo-besar" viewBox="0 0 200 128" role="img" aria-label="Logo Gunung Gambar: biji kopi dengan dua gapura"><use href="#logo"/></svg>
-    <h1 id="judul-utama">Gunung Gambar</h1>
-    <p class="sub">Coffee</p>
-    <p class="aksara" lang="jv">ꦒꦸꦤꦸꦁ ꦒꦩ꧀ꦧꦂ ꦏꦺꦴꦥ꦳ꦶ</p>
-    <p class="tagline">Kopi robusta dari lereng Gunung Gambar, Ngawen, Gunungkidul: tempat sejarah, kebun, dan warga tumbuh bersama.</p>
-    <div class="tombol-baris">
-      <a class="tombol utama" href="#kopi">Lihat kopi kami</a>
-      <a class="tombol garis" href="#seduh">Cara seduh</a>
+    <div>
+      <p class="aksara" lang="jv" aria-label="Gunung Gambar Kopi, dalam aksara Jawa">ꦒꦸꦤꦸꦁ ꦒꦩ꧀ꦧꦂ ꦏꦺꦴꦥ꦳ꦶ</p>
+      <h1 id="judul-utama">Gunung Gambar <em>Coffee</em></h1>
+      <p class="tagline">Robusta dari lereng <strong>petilasan Pangeran Sambernyawa</strong> di Ngawen, Gunungkidul. Tumbuh dari sejarah, dirawat oleh warga.</p>
+      <div class="tombol-baris">
+        <a class="tombol utama" href="kemitraan.html">Peluang kemitraan <span class="panah" aria-hidden="true">→</span></a>
+        <a class="tombol garis" href="#cerita">Baca ceritanya</a>
+      </div>
+      <div class="fakta-hero">
+        <div><b>Robusta</b>jenis kopi</div>
+        <div><b>± 3 ha</b>kebun sejak 2021</div>
+        <div><b>Era VOC</b>jejak kopi pertama</div>
+      </div>
+    </div>
+    <div class="panggung">
+      <svg class="logo-besar" viewBox="0 0 200 128" role="img" aria-label="Logo Gunung Gambar: biji kopi dengan dua gapura"><use href="#logo"/></svg>
+      <p class="ket-panggung">Dua gapura · satu bukit</p>
     </div>
   </div>
-  <svg class="bukit" viewBox="0 0 496 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 60V40C82 40 150 4 248 4C346 4 414 40 496 40V60Z" fill="#A44935"/></svg>
+  <div class="pita"><ul class="pita-statis">
+    <li><b>100%</b>Robusta</li>
+    <li><b>678</b>mdpl</li>
+    <li><b>Petilasan</b>Pangeran Sambernyawa</li>
+    <li><b>Ngawen</b>Gunungkidul</li>
+  </ul></div>
 </section>
-<div class="pita-bata" aria-hidden="true"></div>
+
+<!-- ================= MAKNA LOGO (teks dari tim kemasan) ================= -->
+<section class="bagian makna" id="makna" aria-labelledby="judul-makna">
+  <div class="wadah">
+    <div class="pembuka tengah">
+      <p class="label-kecil"><span class="no" lang="jv">꧑</span>Makna logo</p>
+      <h2 id="judul-makna">Dua gapura, satu bukit</h2>
+    </div>
+    <div class="makna-grid">
+      <ol class="makna-list kiri">
+        <li><span class="titik">1</span><h3>Dua gapura</h3><p>Melambangkan pengaruh kerajaan Majapahit melalui Ki Ageng Gading Mas dan Mataram melalui Raden Mas Said yang membentuk identitas wilayah Gunung Gambar.</p></li>
+        <li><span class="titik">2</span><h3>Warna emas</h3><p>Menjadi ciri khas Mangkunegaran yang memberi identitas Gunung Gambar saat ini.</p></li>
+      </ol>
+      <div class="makna-logo">
+        <div class="logo-wadah"><svg viewBox="0 0 200 128" role="img" aria-label="Logo Gunung Gambar"><use href="#logo"/></svg></div>
+        <div class="swatch"><span style="background:#A44935">Terracotta</span><span style="background:#C5A35C;color:#3E141D">Emas</span><span style="background:#F5EFDF;color:#581F2A">Krem</span></div>
+      </div>
+      <ol class="makna-list kanan" start="3">
+        <li><span class="titik">3</span><h3>Warna terracotta</h3><p>Warna khas candi-candi kerajaan Majapahit, pengaruh utama awal mula peradaban di Gunung Gambar.</p></li>
+        <li><span class="titik">4</span><h3>Garis puncak gunung</h3><p>Menghubungkan kedua zaman, memberi tempat mencari ketenangan bagi kedua tokoh dari kedua kerajaan tersebut.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
 
 <!-- ================= CERITA ================= -->
 <section class="bagian" id="cerita" aria-labelledby="judul-cerita">
-  <div class="wadah">
-    <div class="pembuka">
-      <p class="label-kecil">Kopi yang tumbuh dari sejarah</p>
-      <h2 id="judul-cerita">Cerita Gunung Gambar</h2>
-      <p>Gunung Gambar dikenal sebagai petilasan Pangeran Sambernyawa (Raden Mas Said). Ngawen dulu merupakan wilayah enklave Kadipaten Mangkunegaran, dan di lereng inilah kopi kembali ditanam bersama warga.</p>
+  <div class="wadah cerita-grid">
+    <div class="cerita-kiri">
+      <p class="label-kecil"><span class="no" lang="jv">꧒</span>Sejarah</p>
+      <h2 id="judul-cerita">Kopi yang tumbuh dari sejarah</h2>
+      <p class="pembuka-teks">Gunung Gambar dikenal sebagai petilasan Pangeran Sambernyawa (Raden Mas Said), pendiri Mangkunegaran. Ngawen dulu merupakan enklave Kadipaten Mangkunegaran, dan di lereng inilah kopi kembali ditanam bersama warga.</p>
+      <figure class="peta">
+        <svg viewBox="0 30 260 310" role="img" aria-label="Ilustrasi wilayah Mangkunegaran dan enklave Ngawen">
+          <path d="M65.5,89.5 C68.0,79.5 64.2,46.9 70.0,40.0 C75.8,33.1 91.4,46.6 100.0,48.4 C108.6,50.1 117.7,48.5 121.6,50.5 C125.5,52.5 119.0,58.6 123.4,60.4 C127.8,62.1 139.9,61.9 148.0,61.0 C156.1,60.1 164.2,56.5 172.0,55.0 C179.8,53.5 189.5,46.5 194.5,52.0 C199.5,57.5 199.7,79.5 202.0,88.0 C204.3,96.5 207.3,95.5 208.6,103.0 C209.8,110.5 208.3,125.4 209.5,133.0 C210.7,140.6 210.8,145.7 215.5,148.6 C220.2,151.5 233.2,145.5 238.0,150.4 C242.8,155.3 244.8,170.9 244.0,178.0 C243.2,185.1 237.2,187.4 233.5,193.0 C229.8,198.6 227.5,209.2 221.5,211.6 C215.5,214.0 204.2,202.8 197.5,207.4 C190.8,212.1 187.2,230.4 181.0,239.5 C174.8,248.6 168.5,256.2 160.0,262.0 C151.5,267.8 137.8,272.0 130.0,274.0 C122.2,276.0 117.9,268.5 113.5,274.0 C109.1,279.5 105.9,298.0 103.6,307.0 C101.2,316.0 104.5,324.5 99.4,328.0 C94.3,331.5 78.3,332.8 73.0,328.0 C67.7,323.2 70.6,304.1 67.6,299.5 C64.6,294.9 57.7,306.1 55.0,300.4 C52.3,294.6 52.5,278.4 51.4,265.0 C50.3,251.6 49.0,234.5 48.4,220.0 C47.8,205.5 46.7,185.8 47.8,178.0 C48.9,170.2 50.8,176.2 55.0,173.5 C59.2,170.8 69.0,167.2 73.0,161.5 C77.0,155.8 81.0,144.2 79.0,139.0 C77.0,133.8 66.2,133.0 61.0,130.0 C55.8,127.0 48.5,126.0 47.5,121.0 C46.5,116.0 52.0,105.2 55.0,100.0 C58.0,94.8 63.0,99.5 65.5,89.5 Z" transform="translate(0 0)" fill="rgba(164,73,53,.10)" stroke="#A44935" stroke-width="1.2"/>
+          <path d="M65.5,89.5 C68.0,79.5 64.2,46.9 70.0,40.0 C75.8,33.1 91.4,46.6 100.0,48.4 C108.6,50.1 117.7,48.5 121.6,50.5 C125.5,52.5 119.0,58.6 123.4,60.4 C127.8,62.1 139.9,61.9 148.0,61.0 C156.1,60.1 164.2,56.5 172.0,55.0 C179.8,53.5 189.5,46.5 194.5,52.0 C199.5,57.5 199.7,79.5 202.0,88.0 C204.3,96.5 207.3,95.5 208.6,103.0 C209.8,110.5 208.3,125.4 209.5,133.0 C210.7,140.6 210.8,145.7 215.5,148.6 C220.2,151.5 233.2,145.5 238.0,150.4 C242.8,155.3 244.8,170.9 244.0,178.0 C243.2,185.1 237.2,187.4 233.5,193.0 C229.8,198.6 227.5,209.2 221.5,211.6 C215.5,214.0 204.2,202.8 197.5,207.4 C190.8,212.1 187.2,230.4 181.0,239.5 C174.8,248.6 168.5,256.2 160.0,262.0 C151.5,267.8 137.8,272.0 130.0,274.0 C122.2,276.0 117.9,268.5 113.5,274.0 C109.1,279.5 105.9,298.0 103.6,307.0 C101.2,316.0 104.5,324.5 99.4,328.0 C94.3,331.5 78.3,332.8 73.0,328.0 C67.7,323.2 70.6,304.1 67.6,299.5 C64.6,294.9 57.7,306.1 55.0,300.4 C52.3,294.6 52.5,278.4 51.4,265.0 C50.3,251.6 49.0,234.5 48.4,220.0 C47.8,205.5 46.7,185.8 47.8,178.0 C48.9,170.2 50.8,176.2 55.0,173.5 C59.2,170.8 69.0,167.2 73.0,161.5 C77.0,155.8 81.0,144.2 79.0,139.0 C77.0,133.8 66.2,133.0 61.0,130.0 C55.8,127.0 48.5,126.0 47.5,121.0 C46.5,116.0 52.0,105.2 55.0,100.0 C58.0,94.8 63.0,99.5 65.5,89.5 Z" fill="none" stroke="#C5A35C" stroke-width="2.4" stroke-dasharray="0 6" stroke-linecap="round"/>
+          <circle cx="24" cy="222" r="6" fill="#C5A35C" stroke="#581F2A" stroke-width="1.2"/><circle cx="24" cy="222" r="11" fill="none" stroke="#C5A35C" stroke-width="1" stroke-dasharray="2 3"/>
+          <text x="8" y="246" font-family="Plus Jakarta Sans,sans-serif" font-size="9" fill="#581F2A" font-weight="600">NGAWEN</text>
+          <text x="140" y="190" font-family="Cormorant Garamond,serif" font-size="13" fill="#581F2A" font-style="italic" text-anchor="middle">Mangkunegaran</text>
+        </svg>
+        <figcaption>Ilustrasi wilayah Mangkunegaran dan enklave Ngawen, terinspirasi peta lama <em>Tanah Mangkoenagaran</em>. Bukan peta berskala.</figcaption>
+      </figure>
     </div>
     <ol class="linimasa">
-      <li>
-        <span class="tahun">Abad ke-18</span>
-        <div><h3>Petilasan Pangeran Sambernyawa</h3>
-        <p>Raden Mas Said, pendiri Mangkunegaran, dikenal pernah bertapa di puncak bukit batu Gunung Gambar.</p></div>
-      </li>
-      <li>
-        <span class="tahun">Era VOC</span>
-        <div><h3>Jejak kopi pertama</h3>
-        <p>Catatan di Perpustakaan Mangkunegaran menyebut tanaman kopi sudah tumbuh di kawasan ini sejak zaman VOC.</p></div>
-      </li>
-      <li>
-        <span class="tahun">1907</span>
-        <div><h3>Budidaya kopi tercatat</h3>
-        <p><span class="isian">[KONFIRMASI SUMBER: catatan 1907]</span></p></div>
-      </li>
-      <li>
-        <span class="tahun">1970–1980</span>
-        <div><h3>Penanaman kembali</h3>
-        <p><span class="isian">[CERITA PENANAMAN KEMBALI DARI WARGA]</span></p></div>
-      </li>
-      <li>
-        <span class="tahun">2018–2021</span>
-        <div><h3>Bersama Fakultas Pertanian UGM</h3>
-        <p>Program penghijauan dan konservasi dimulai tahun 2018. Pada 2021, ribuan bibit robusta ditanam di lahan sekitar tiga hektare.</p></div>
-      </li>
-      <li>
-        <span class="tahun">2025</span>
-        <div><h3>Panen raya</h3>
-        <p>Panen raya robusta pada 5 Juli 2025 dihadiri Bupati Gunungkidul, petani, Pokdarwis Kampung Ngawen, dan mahasiswa UGM.</p></div>
-      </li>
-      <li>
-        <span class="tahun">2026</span>
-        <div><h3>Belajar menyangrai</h3>
-        <p>Pendampingan teknik penyangraian dan SOP mutu bersama Departemen TPHP, Fakultas Teknologi Pertanian UGM.</p></div>
-      </li>
+      <li><span class="tahun">Abad 18</span><h3>Petilasan Pangeran Sambernyawa</h3>
+        <p>Raden Mas Said, pendiri Mangkunegaran, dikenal pernah bertapa di puncak bukit batu Gunung Gambar.</p></li>
+      <li><span class="tahun">Era VOC</span><h3>Jejak kopi pertama</h3>
+        <p>Catatan di Perpustakaan Mangkunegaran menyebut tanaman kopi sudah tumbuh di kawasan ini sejak zaman VOC.</p></li>
+      <li><span class="tahun">1907</span><h3>Budidaya kopi tercatat</h3>
+        <p><span class="isian">[KONFIRMASI SUMBER: catatan 1907]</span></p></li>
+      <li><span class="tahun">1970–80</span><h3>Penanaman kembali</h3>
+        <p><span class="isian">[CERITA PENANAMAN KEMBALI DARI WARGA]</span></p></li>
+      <li><span class="tahun">2018</span><h3>Bersama Fakultas Pertanian UGM</h3>
+        <p>Program penghijauan dan konservasi dimulai. Pada 2021, ribuan bibit robusta ditanam di lahan sekitar tiga hektare.</p></li>
+      <li><span class="tahun">2025</span><h3>Panen raya</h3>
+        <p>Panen raya robusta pada 5 Juli 2025 dihadiri Bupati Gunungkidul, petani, Pokdarwis Kampung Ngawen, dan mahasiswa UGM.</p></li>
+      <li><span class="tahun">2026</span><h3>Belajar menyangrai</h3>
+        <p>Pendampingan teknik penyangraian dan SOP mutu bersama Departemen TPHP, Fakultas Teknologi Pertanian UGM.</p></li>
     </ol>
+  </div>
+  <div class="wadah">
     <p class="sumber">Sumber: <a href="https://desakampung.gunungkidulkab.go.id/first/artikel/1937">Kalurahan Kampung</a> · <a href="https://web.faperta.ugm.ac.id/panen-raya-kopi-robusta-di-gunung-gambar-wujud-nyata-kolaborasi-faperta-ugm-dan-masyarakat/">Faperta UGM</a> · <a href="https://tphp.ugm.ac.id/2026/11/09/tphp-ugm-dampingi-masyarakat-gunung-gambar-optimalkan-mutu-kopi-robusta-melalui-teknik-penyangraian/">TPHP UGM</a></p>
   </div>
 </section>
+<div class="pita-bata" aria-hidden="true"></div>
 
 <!-- ================= KEBUN ================= -->
 <section class="bagian gelap" id="kebun" aria-labelledby="judul-kebun">
-  <div class="wadah">
-    <svg class="ornamen tengah" viewBox="0 0 480 160" aria-hidden="true">
-      <use href="#sulur" x="0" y="0" width="230" height="160"/>
-      <use href="#sulur" transform="translate(480 0) scale(-1 1)" x="0" y="0" width="230" height="160"/>
-      <use href="#biji" x="230" y="96" width="20" height="28"/>
-    </svg>
+  <svg class="kontur-latar" viewBox="0 0 520 380" preserveAspectRatio="none" aria-hidden="true"><g fill="none" stroke="#C5A35C" stroke-width="1" vector-effect="non-scaling-stroke"><path d="M-60 200C70 200 120 60 260 60C400 60 450 200 580 200"/><path d="M-60 216C70 216 120 76 260 76C400 76 450 216 580 216"/><path d="M-60 232C70 232 120 92 260 92C400 92 450 232 580 232"/><path d="M-60 248C70 248 120 108 260 108C400 108 450 248 580 248"/><path d="M-60 264C70 264 120 124 260 124C400 124 450 264 580 264"/><path d="M-60 280C70 280 120 140 260 140C400 140 450 280 580 280"/><path d="M-60 296C70 296 120 156 260 156C400 156 450 296 580 296"/><path d="M-60 312C70 312 120 172 260 172C400 172 450 312 580 312"/><path d="M-60 328C70 328 120 188 260 188C400 188 450 328 580 328"/><path d="M-60 344C70 344 120 204 260 204C400 204 450 344 580 344"/><path d="M-60 360C70 360 120 220 260 220C400 220 450 360 580 360"/><path d="M-60 376C70 376 120 236 260 236C400 236 450 376 580 376"/><path d="M-60 392C70 392 120 252 260 252C400 252 450 392 580 392"/><path d="M-60 408C70 408 120 268 260 268C400 268 450 408 580 408"/><path d="M-60 424C70 424 120 284 260 284C400 284 450 424 580 424"/><path d="M-60 440C70 440 120 300 260 300C400 300 450 440 580 440"/><path d="M-60 456C70 456 120 316 260 316C400 316 450 456 580 456"/><path d="M-60 472C70 472 120 332 260 332C400 332 450 472 580 472"/></g></svg>
+  <div class="wadah" style="position:relative">
     <div class="pembuka">
-      <p class="label-kecil">Dari kebun</p>
+      <p class="label-kecil"><span class="no" lang="jv">꧓</span>Dari kebun</p>
       <h2 id="judul-kebun">Ditanam dan dirawat warga</h2>
       <p>Kopi Gunung Gambar diproduksi oleh Kelompok Tani Kopi “Tunas Muda Mandiri”, Gunung Gambar, Kampung, Ngawen.</p>
     </div>
-    <div class="kisi">
-      <div class="kartu">
-        <div class="angka">± 3 ha</div>
-        <p>Lahan robusta yang ditanami sejak 2021.</p>
-      </div>
-      <div class="kartu">
-        <div class="angka">± 1 ton</div>
-        <p>Rata-rata hasil per tahun. Kopi bisa dipanen sepanjang tahun.</p>
-      </div>
-      <div class="kartu">
-        <div class="angka">100%</div>
-        <p>Kopi robusta.</p>
-      </div>
+    <div class="angka-baris">
+      <div><div class="angka">± 3 ha</div><p>Lahan robusta yang ditanami sejak 2021.</p></div>
+      <div><div class="angka">± 1 ton</div><p>Rata-rata hasil per tahun.</p></div>
+      <div><div class="angka">12 bln</div><p>Kopi bisa dipanen sepanjang tahun.</p></div>
     </div>
-    <div class="kisi" style="margin-top:1.25rem">
-      <div class="kartu">
-        <div class="foto-kosong">[FOTO PETANI / KEBUN]</div>
-        <h3 style="margin-top:1rem">Petani kami</h3>
-        <p><span class="isian">[NAMA &amp; CERITA SINGKAT PETANI]</span></p>
-      </div>
-      <div class="kartu">
-        <div class="foto-kosong">[FOTO PANEN / PETIK MERAH]</div>
-        <h3 style="margin-top:1rem">Panen &amp; pasca panen</h3>
-        <p><span class="isian">[CARA PANEN, PENJEMURAN, PROSES]</span></p>
-      </div>
-      <div class="kartu">
-        <div class="foto-kosong">[FOTO SANGRAI]</div>
-        <h3 style="margin-top:1rem">Sangrai</h3>
-        <p><span class="isian">[SIAPA YANG MENYANGRAI, ALAT, PROFIL]</span></p>
-      </div>
+    <div class="kisi">
+      <article class="kartu-foto"><div class="foto-kosong">[FOTO PETANI / KEBUN]</div>
+        <h3>Petani kami</h3><p><span class="isian">[NAMA &amp; CERITA SINGKAT PETANI]</span></p></article>
+      <article class="kartu-foto"><div class="foto-kosong">[FOTO PANEN / PETIK MERAH]</div>
+        <h3>Panen &amp; pasca panen</h3><p><span class="isian">[CARA PANEN, PENJEMURAN, PROSES]</span></p></article>
+      <article class="kartu-foto"><div class="foto-kosong">[FOTO SANGRAI]</div>
+        <h3>Sangrai</h3><p><span class="isian">[SIAPA YANG MENYANGRAI, ALAT, PROFIL]</span></p></article>
     </div>
   </div>
 </section>
@@ -222,84 +180,77 @@
 <section class="bagian" id="kopi" aria-labelledby="judul-kopi">
   <div class="wadah">
     <div class="pembuka">
-      <p class="label-kecil">Kopi kami</p>
+      <p class="label-kecil"><span class="no" lang="jv">꧔</span>Kopi kami</p>
       <h2 id="judul-kopi">Robusta Gunung Gambar</h2>
-      <p>Tersedia dalam kemasan 50 g dan 100 g. Pindai QR di kemasan untuk melihat asal dan detail tiap kemasan.</p>
+      <p>Kopi kami <strong>belum dibuka untuk pemesanan (PO)</strong>. Saat ini fokus utama kelompok tani adalah meningkatkan produksi biji dari kebun.</p>
     </div>
     <div class="produk-kisi">
-      <a class="produk" href="produk.html#robusta-50g">
-        <svg class="bingkai" aria-hidden="true"><use href="#gapura" width="100%" height="100%"/></svg>
-        <div style="position:relative">
-          <svg viewBox="0 0 20 28" width="22" height="31" style="margin:0 auto;color:#A44935" aria-hidden="true"><use href="#biji"/></svg>
-          <h3>Robusta</h3>
-          <div class="berat">50 g</div>
-          <p class="ket"><span class="isian">[BIJI / BUBUK]</span> · <span class="isian">[HARGA]</span></p>
-          <span class="tombol bata">Lihat detail</span>
-        </div>
-      </a>
-      <a class="produk" href="produk.html#robusta-100g">
-        <svg class="bingkai" aria-hidden="true"><use href="#gapura" width="100%" height="100%"/></svg>
-        <div style="position:relative">
-          <svg viewBox="0 0 20 28" width="22" height="31" style="margin:0 auto;color:#A44935" aria-hidden="true"><use href="#biji"/></svg>
-          <h3>Robusta</h3>
-          <div class="berat">100 g</div>
-          <p class="ket"><span class="isian">[BIJI / BUBUK]</span> · <span class="isian">[HARGA]</span></p>
-          <span class="tombol bata">Lihat detail</span>
-        </div>
-      </a>
+      <div class="produk segera">
+        <div class="wajah"><svg viewBox="0 0 200 128" aria-hidden="true"><use href="#logo"/></svg><span class="lencana">Segera hadir</span><span class="berat">50 g</span></div>
+        <div class="info"><div><h3>Robusta</h3><p class="ket">Kemasan sedang disiapkan</p></div></div>
+      </div>
+      <div class="produk segera">
+        <div class="wajah"><svg viewBox="0 0 200 128" aria-hidden="true"><use href="#logo"/></svg><span class="lencana">Segera hadir</span><span class="berat">100 g</span></div>
+        <div class="info"><div><h3>Robusta</h3><p class="ket">Kemasan sedang disiapkan</p></div></div>
+      </div>
+    </div>
+    <div class="ajakan">
+      <div><h3>Ingin ikut menumbuhkan kebun ini?</h3><p>Kami membuka peluang kerja sama untuk meningkatkan produksi biji kopi Gunung Gambar.</p></div>
+      <a class="tombol emas" href="kemitraan.html">Lihat peluang kemitraan <span class="panah" aria-hidden="true">→</span></a>
     </div>
   </div>
 </section>
-<div class="pita-bata" aria-hidden="true"></div>
 
 <!-- ================= CARA SEDUH ================= -->
 <section class="bagian gelap" id="seduh" aria-labelledby="judul-seduh">
   <div class="wadah">
     <div class="pembuka">
-      <p class="label-kecil">Cara seduh</p>
+      <p class="label-kecil"><span class="no" lang="jv">꧕</span>Cara seduh</p>
       <h2 id="judul-seduh">Seduh di rumah</h2>
-      <p>Panduan awal. Sesuaikan dengan selera: tambah kopi untuk rasa lebih pekat, kurangi untuk lebih ringan.</p>
+      <p>Panduan awal. Tambah kopi untuk rasa lebih pekat, kurangi untuk lebih ringan.</p>
     </div>
     <div class="seduh">
-      <article class="kartu">
+      <article class="resep-kartu">
+        <div class="rasio">1:13<small>kopi : air</small></div>
         <h3>Tubruk</h3>
         <dl class="resep"><dt>Kopi</dt><dd>10–12 g (±2 sdm)</dd><dt>Air</dt><dd>150 ml, 90–95 °C</dd><dt>Gilingan</dt><dd>Halus</dd><dt>Waktu</dt><dd>± 4 menit</dd></dl>
         <ol><li>Masukkan bubuk kopi ke gelas.</li><li>Tuang air panas (air mendidih, diamkan ±30 detik).</li><li>Aduk, tunggu ampas turun, lalu nikmati.</li></ol>
       </article>
-      <article class="kartu">
+      <article class="resep-kartu">
+        <div class="rasio">1:16<small>kopi : air</small></div>
         <h3>V60</h3>
-        <dl class="resep"><dt>Kopi</dt><dd>15 g</dd><dt>Air</dt><dd>240 ml, 90–94 °C (1:16)</dd><dt>Gilingan</dt><dd>Sedang–halus</dd><dt>Waktu</dt><dd>± 2,5–3 menit</dd></dl>
+        <dl class="resep"><dt>Kopi</dt><dd>15 g</dd><dt>Air</dt><dd>240 ml, 90–94 °C</dd><dt>Gilingan</dt><dd>Sedang–halus</dd><dt>Waktu</dt><dd>± 2,5–3 menit</dd></dl>
         <ol><li>Bilas kertas saring dengan air panas.</li><li>Tuang 30 ml air, diamkan 30 detik (blooming).</li><li>Tuang sisa air perlahan memutar hingga 240 ml.</li></ol>
       </article>
-      <article class="kartu">
+      <article class="resep-kartu">
+        <div class="rasio">1:15<small>kopi : air</small></div>
         <h3>French press</h3>
-        <dl class="resep"><dt>Kopi</dt><dd>15 g</dd><dt>Air</dt><dd>225 ml, 92–95 °C (1:15)</dd><dt>Gilingan</dt><dd>Kasar</dd><dt>Waktu</dt><dd>4 menit</dd></dl>
+        <dl class="resep"><dt>Kopi</dt><dd>15 g</dd><dt>Air</dt><dd>225 ml, 92–95 °C</dd><dt>Gilingan</dt><dd>Kasar</dd><dt>Waktu</dt><dd>4 menit</dd></dl>
         <ol><li>Masukkan kopi, tuang semua air.</li><li>Aduk pelan, tutup, tunggu 4 menit.</li><li>Tekan saringan perlahan, lalu tuang.</li></ol>
       </article>
     </div>
     <p class="catatan">Rekomendasi khusus untuk robusta Gunung Gambar: <span class="isian">[SARAN DARI PENYANGRAI / TPHP]</span></p>
   </div>
 </section>
+<div class="pita-bata" aria-hidden="true"></div>
 
 <!-- ================= KUNJUNGI ================= -->
 <section class="bagian krem2" id="kunjungi" aria-labelledby="judul-kunjungi">
   <div class="wadah dua-kolom">
     <div>
-      <p class="label-kecil">Kunjungi</p>
+      <p class="label-kecil"><span class="no" lang="jv">꧖</span>Kunjungi</p>
       <h2 id="judul-kunjungi">Datang ke Gunung Gambar</h2>
       <p>Selain kebun kopi, kawasan ini memiliki petilasan, jalur trekking, dan pemandangan perbukitan Gunungkidul utara.</p>
-      <address class="alamat">
-        Padukuhan Gunung Gambar<br>
-        Kalurahan Kampung, Kapanewon Ngawen<br>
-        Kabupaten Gunungkidul, DIY
-      </address>
-      <p style="margin-top:1.25rem"><a class="tombol bata" href="https://www.google.com/maps/search/?api=1&amp;query=-7.821304,110.671714">Buka di Google Maps</a></p>
+      <address class="alamat">Padukuhan Gunung Gambar<br>Kalurahan Kampung, Kapanewon Ngawen<br>Kabupaten Gunungkidul, DIY</address>
+      <a class="tombol utama" href="https://www.google.com/maps/search/?api=1&amp;query=-7.821304,110.671714">Buka di Google Maps <span class="panah" aria-hidden="true">→</span></a>
     </div>
-    <div class="kartu">
-      <h3>Beli &amp; pesan</h3>
-      <p>WhatsApp: <span class="isian">[NOMOR WA]</span></p>
-      <p>Instagram: <span class="isian">[@AKUN]</span></p>
-      <p>Tersedia di: <span class="isian">[DAFTAR KAFE / TOKO]</span></p>
+    <div class="kartu-kontak">
+      <h3>Hubungi kami</h3>
+      <dl>
+        <div><dt>WhatsApp</dt><dd><span class="isian">[NOMOR WA]</span></dd></div>
+        <div><dt>Instagram</dt><dd><span class="isian">[@AKUN]</span></dd></div>
+        <div><dt>Kemitraan</dt><dd><a href="kemitraan.html" style="color:var(--emas-muda)">Lihat peluang kerja sama →</a></dd></div>
+      </dl>
     </div>
   </div>
 </section>
@@ -307,25 +258,19 @@
 </main>
 
 <footer class="kaki">
+  <div class="watermark" lang="jv" aria-hidden="true">ꦒꦸꦤꦸꦁ ꦒꦩ꧀ꦧꦂ</div>
   <div class="wadah">
     <div>
       <h3>Gunung Gambar Coffee</h3>
-      <p class="aksara" lang="jv" style="font-size:1rem;margin:0">ꦒꦸꦤꦸꦁ ꦒꦩ꧀ꦧꦂ ꦏꦺꦴꦥ꦳ꦶ</p>
       <p>Diproduksi oleh Kelompok Tani Kopi “Tunas Muda Mandiri”, Gunung Gambar, Kampung, Ngawen, Gunungkidul.</p>
     </div>
     <div>
       <h3>Halaman</h3>
-      <ul>
-        <li><a href="#cerita">Cerita</a></li>
-        <li><a href="#kebun">Kebun</a></li>
-        <li><a href="#kopi">Kopi</a></li>
-        <li><a href="#seduh">Cara seduh</a></li>
-      </ul>
+      <ul><li><a href="#cerita">Cerita</a></li><li><a href="#kebun">Kebun</a></li><li><a href="#kopi">Kopi</a></li><li><a href="#seduh">Cara seduh</a></li></ul>
     </div>
     <div>
       <h3>Binaan</h3>
-      <p>Universitas Gadjah Mada</p>
-      <p>Dikembangkan oleh KKN-PPM UGM 2026.</p>
+      <p>Universitas Gadjah Mada<br>Dikembangkan oleh KKN-PPM UGM 2026.</p>
     </div>
     <p class="bawah">© 2026 Kelompok Tani Kopi “Tunas Muda Mandiri”. Bisa dibuka tanpa sinyal setelah kunjungan pertama.</p>
   </div>
